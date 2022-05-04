@@ -1,0 +1,206 @@
+/* Основной фон #FFFFFF; */
+/* Фон героя и футера #2F303A */
+/* Вторичный фон (Наша команда) #F5F4FA */
+/* Основной цвет шрифта #757575; */
+/* Активный цвет шрифта #2196F3; */
+/* Цвет шрифта заголовков #212121 */
+/* Доп цвет шрифта герой #FFFFFF, футер rgba(255, 255, 255, 0.6) */
+
+body{
+    color:#212121;
+    background-color: white;
+    font-family: Roboto, sans-serif ;
+    letter-spacing: 0.03em;
+}
+
+li{
+    list-style: none;
+}
+
+:root{
+   --active-color: #2196F3;
+   --main-font: #212121;
+   --secondary-text:#757575;
+}
+
+ /* Header */
+ 
+
+ .header-link{
+     color:var(--active-color) ;
+     font-family: Raleway;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.19;
+     text-decoration: none; 
+ }
+ .logo{
+     color:var(--main-font);
+     text-decoration: none;
+ }
+ .link-item{
+     color:var(--main-font);
+     background-color: #FFFFFF;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+ }
+ .link-item:hover,
+ .link-item:focus{
+     color: var(--active-color);
+ }
+ .link-nav{
+     color:#757575 ;
+     font-family: 'Roboto';
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+ }
+ .link-nav:hover,
+ .link-nav:focus{
+     color: var(--active-color);
+ }    
+ 
+ /* Hover */
+ .hover-section{
+     background-color:#2F303A ;
+ }
+ .hover{
+     color:#FFFFFF ;
+     font-family: 'Roboto'; 
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.36; 
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase; 
+ }
+ .hover-btn{
+     color: #FFFFFF;
+     font-family: 'Roboto';
+     font-weight: 700;
+     background-color: var(--active-color);
+     font-size: 16px;
+     line-height: 1.87;  
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+     cursor: pointer;
+ }
+
+/* Feature */
+.featcher{
+    color: var(--main-font);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+ .feature-section{
+     color: var(--main-font);
+     font-size: 14px;
+     line-height: 1.14;
+     text-transform: uppercase;
+
+ }
+ .feature-item{
+     color: var(--secondary-text);
+     font-size: 14px;
+     line-height: 1.71;
+     font-weight: 400;
+   
+ }
+
+ /* Team */
+ .section-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+ }
+ .team{
+     font-weight: 500;
+     background-color:#F5F4FA;
+     color: var(--main-font);
+     font-size: 16px;
+     line-height: 1.18;
+     text-align: center;
+     
+ }
+ .team-item{
+     color: var(--secondary-text);
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.18;
+     text-align: center;
+ }
+
+ /* Footer */
+ .footer-logo{
+     color: #FFFFFF;
+ }
+.footer{
+    background-color: #2F303A;
+}
+.footer-link{
+    color: var(--active-color);
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+.footer-address{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.address-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus{
+    color:rgba(255, 255, 255, 0.6) ;
+}
+
+/* Портфолио */
+/* Main */
+.btn-item{
+    color: var(--main-font);
+    background-color:#F5F4FA;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.btn-item:hover,
+.btn-item:focus{
+    color: #FFFFFF;
+    background-color: var(--active-color);
+}
+
+.portfolio{
+    color: var(--main-font);
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.03;
+}
+.portfolio-text{
+    color: var(--secondary-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
