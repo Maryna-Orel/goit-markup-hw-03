@@ -185,6 +185,7 @@ img{
 
 .h2{
     visibility: hidden;
+    
 }
 .container{
     width: 1200px;
@@ -215,7 +216,7 @@ font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
 
-line-height: 1.16px;
+line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -228,7 +229,7 @@ letter-spacing: 0.03em;
 color:#212121;
 font-weight: 700;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 text-transform: uppercase;
 
 margin-bottom: 10px;
@@ -282,6 +283,8 @@ padding-left: 0;
 
      line-height: 1.18;
      text-align: center;
+
+     margin-bottom: 10px;
  
     
 
@@ -359,6 +362,7 @@ padding-left: 0;
    
     line-height: 1.71;
     text-decoration: none;
+    margin-bottom: 9px;
 }
 
 .address-link:hover,
@@ -370,6 +374,9 @@ padding-left: 0;
     margin-bottom: 9px;
 }
 
+.mail{
+    
+}
 /* Портфолио */
 /* Main */
 
